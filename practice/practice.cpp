@@ -9,7 +9,7 @@ int main()
 			cout << "Error! Enter a number beetwen 1 and 10!\n";
 			return 1;
 		}
-	if (subjects < 0)
+	if (subjects < 1)
 	{
 		cout << "Enter a non-negative numbers!\n";
 		return 1;
