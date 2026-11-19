@@ -6,7 +6,7 @@ int main()
 	cout << "Please Enter The number of Subjects \n:";
 		if (!(cin >> subjects)) 
 		{
-			cout << "Error! Enter a number beetwen 1 and 10!\n";
+			cout << "Error! Enter a number between 1 and 10!\n";
 			return 1;
 		}
 	if (subjects < 1)
@@ -26,7 +26,7 @@ int main()
 		cout << "Please Enter The score of each subject " << i << ":" << endl;
 		if (!(cin >> score))
 		{
-			cout << "Please Enter Vaild number!\n";
+			cout << "Please Enter Valid number!\n";
 			return 1;
 		}
 
