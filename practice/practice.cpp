@@ -30,7 +30,7 @@ int main()
 			return 1;
 		}
 
-		if (score > 100 || < 0)
+		if (score < 0 || > 100)
 		{
 			cout << "The max number is 100!\n";
 			return 1;
